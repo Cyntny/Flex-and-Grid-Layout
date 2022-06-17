@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+.main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+}
+
+.sedan {
+    background-color: goldenrod;
+    padding: 2em;
+    width: 300px;
+    margin: 0.1%;
+    line-height: 1.8;
+    border-radius: 5px;
+}
+
+.suv {
+    background-color: darkslategrey;
+    padding: 2em;
+    width: 300px;
+    margin: 0.1%;
+    line-height: 1.8;
+}
+
+.luxury {
+    background-color: darkcyan;
+    padding: 2em;
+    width: 300px;
+    margin: 0.1%;
+    line-height: 1.8;
+    border-radius: 5px;
+}
+
+.p {
+    line-height: 5.8;
+}
+
+button {
+    border-radius: 20px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    font-size: 10px;
+    margin: 4px 2px;
+    border: none;
+    text-decoration: none;
+    padding: 10px;
+}
